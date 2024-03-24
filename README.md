@@ -54,7 +54,7 @@ This command builds a new Docker image named photo_sorter based on the instructi
 After the image is built, you can run the application in a Docker container. Since the Photo Sorter requires access to directories on your host system for source and destination paths, you'll need to mount these directories when starting the container:
 
 ```
-docker run -v /path/to/source:/src -v /path/to/destination:/dest photo_sorter
+docker run -v /path/to/source:/src -v /path/to/destination:/dest nbeo/photo-sorter:latest
 ```
 Replace /path/to/source with the path to the directory containing your photos, and /path/to/destination with the path where you want the sorted and renamed photos to be placed.
 
