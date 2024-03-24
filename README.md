@@ -69,5 +69,3 @@ Contributions to the Photo Sorter project are welcome. Please feel free to repor
 
 ## License
 [MIT License](LICENSE)
-
-Please ensure you have the correct permissions to use and share the photos you process with this tool.
